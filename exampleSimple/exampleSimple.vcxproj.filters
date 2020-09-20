@@ -1,13 +1,93 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\ofApp.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\ofApp.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\DeviceList.cpp">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Frame.cpp">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Input.cpp">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Iterator.cpp">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Output.cpp">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Utils.cpp">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\vs\DeckLinkAPI_i.c">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic\vs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackMagic2_GA">
+			<UniqueIdentifier>{5915410B-873F-F0A4-EB8C-6A53}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackMagic2_GA\src">
+			<UniqueIdentifier>{E95F61B9-3A03-41CA-C1F4-6DD5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackMagic2_GA\src\ofxBlackMagic">
+			<UniqueIdentifier>{04D529E4-72BA-8D00-340E-CE30}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBlackMagic2_GA\src\ofxBlackMagic\vs">
+			<UniqueIdentifier>{BB3D2F4A-AD2A-D6EC-9371-3C57}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\DeviceList.h">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Frame.h">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Input.h">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Iterator.h">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Output.h">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\Utils.h">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic\vs\DeckLinkAPI_h.h">
+			<Filter>addons\ofxBlackMagic2_GA\src\ofxBlackMagic\vs</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBlackMagic2_GA\src\ofxBlackMagic.h">
+			<Filter>addons\ofxBlackMagic2_GA\src</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
 </Project>
