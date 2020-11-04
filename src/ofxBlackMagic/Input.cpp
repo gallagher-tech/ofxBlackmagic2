@@ -102,6 +102,12 @@ namespace ofxBlackmagic {
 	}
 
 	//---------
+	bool Input::isStarted() const
+	{
+		return state == Running;
+	}
+
+	//---------
 	bool Input::isFrameNew() const {
 		return this->isFrameNewFlag;
 	}
@@ -126,6 +132,13 @@ namespace ofxBlackmagic {
 				if (detectedSignalFlags & bmdDetectedVideoInputRGB444) {
 					pixelFormat = bmdFormat10BitRGB;
 				}
+
+				// Print the new input mode name
+				BSTR modeStr = NULL;
+				if (newMode->GetName(&modeStr) == S_OK) {
+					ofLogNotice("ofxBlackMagic2") << "Video input mode changed to: " << Utils::toString(modeStr);
+				}
+				if (modeStr != NULL) SysFreeString(modeStr);
 
 				// Restart capture with the new video mode if told to
 				if (shouldRestartCaptureWithNewVideoMode) {
